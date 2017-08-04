@@ -14,7 +14,11 @@
           <h1><img src="img/logo.png" style="width: 100px; margin-top: 1rem;" alt="Lubbock is Lit"></h1>
         </div>
         <div class="cell auto">
-
+          <ul class="nav">
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Living in Lubbock</a></li>
+          </ul>
         </div>
       </div>
     </div>
