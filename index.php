@@ -8,40 +8,26 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
+    <img src="img/logo.png" class="logo" alt="">
+    <div class="grid-container">
     <div class="grid-x">
-      <div class="cell shrink" style="vertical-align: bottom;">
-        <h1><img src="img/logo.png" style="" alt="Lubbock is Lit" class="logo"></h1>
-      </div>
       <div class="cell auto nav-wrap">
-        <div class="grid-x" data-equalizer>
-          <div class="cell medium-4" data-equalizer-watch>
-            <img src="img/nav/nav_01.png" alt="">
-          </div>
-          <div class="cell medium-4" data-equalizer-watch>
+        <div class="grid-x">
+          <div class="cell cell-art"><img src="img/nav/nav_01.png" alt=""></div>
+          <div class="cell cell-music-food">
             <div class="grid-x">
-              <div class="cell medium-12">
-                <img src="img/nav/nav_02.png" alt="">
-              </div>
-            </div>
-            <div class="grid-x">
-              <div class="cell medium-12">
-                <img src="img/nav/nav_04.png" alt="">
-              </div>
+              <div class="cell cell-food"><img src="img/nav/nav_02.png" alt=""></div>
+              <div class="cell cell-music"><img src="img/nav/nav_04.png" alt=""></div>
             </div>
           </div>
-          <div class="cell medium-4" data-equalizer-watch>
-            <img src="img/nav/nav_03.png" alt="">
-          </div>
+          <div class="cell cell-living"><img src="img/nav/nav_03.png" alt=""></div>
         </div>
         <div class="grid-x">
-          <div class="cell medium-7">
-            <img src="img/nav/nav_05.png" alt="">
-          </div>
-          <div class="cell medium-5">
-            <img src="img/nav/nav_06.png" alt="">
-          </div>
+          <div class="cell cell-rec"><img src="img/nav/nav_05.png" alt=""></div>
+          <div class="cell cell-features"><img src="img/nav/nav_06.png" alt=""></div>
         </div>
       </div>
+    </div>
     </div>
 
     <script src="js/jquery.slim.min.js"></script>

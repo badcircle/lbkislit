@@ -2,23 +2,72 @@ body {
     background-color: #fff;
 }
 .logo {
-    width: 6rem;
+    width: 5rem;
     left: 1rem;
-    top: 3rem;
+    top: 2rem;
+    position: absolute;
 }
 .nav-wrap {
-    max-width: 1200px;
-    text-align: center;
-    .cell.medium-4 {
-        position: relative;
-        vertical-align: bottom;
-        img {
-            position: relative;
-            bottom: 0;
+    img {
+        vertical-align: top;
+    }
+    padding: 6rem 4rem 3rem 4rem;
+    .cell-art { 
+        width: 36.4%;
+        background-repeat: no-repeat;
+        &:hover {
+            background-size: contain;
+            background-image: url(../img/nav/nav_over_01.png);
         }
     }
-}
-.nav-image {
-    padding: 6rem 8rem;
-    margin: 0 auto;
+    .cell-music-food { 
+        width: 25.6%;
+        background-repeat: no-repeat;
+        &:hover {
+            background-size: contain;
+        }
+    }
+    .cell-food {
+        &:hover {
+            background-size: contain;
+            background-image: url(../img/nav/nav_over_02.png);
+        }
+    }
+    .cell-music {
+        &:hover{
+            background-size: contain;
+            background-image: url(../img/nav/nav_over_04.png);
+        }
+    }
+    .cell-living { 
+        width: 38%;
+        background-repeat: no-repeat;
+        &:hover {
+            background-size: contain;
+            background-image: url(../img/nav/nav_over_03.png);
+        }
+    }
+    .cell-rec { 
+        width: 55.7%;
+        background-repeat: no-repeat;
+        &:hover {
+            background-size: contain;
+            background-image: url(../img/nav/nav_over_05.png);
+        }
+    }
+    .cell-features { 
+        width: 44.3%;
+        background-repeat: no-repeat;
+        &:hover {
+            background-size: contain;
+            background-image: url(../img/nav/nav_over_06.png);
+        }
+    }
+    @include breakpoint(small down) {
+        .cell-art { width: 100%; }
+        .cell-music-food { width: 100%; }
+        .cell-living { width: 100%; }
+        .cell-rec { width: 100%; }
+        .cell-features { width: 100%; }
+    }
 }
