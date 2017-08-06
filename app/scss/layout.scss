@@ -1,3 +1,24 @@
 body {
     background-color: #fff;
 }
+.logo {
+    width: 6rem;
+    left: 1rem;
+    top: 3rem;
+}
+.nav-wrap {
+    max-width: 1200px;
+    text-align: center;
+    .cell.medium-4 {
+        position: relative;
+        vertical-align: bottom;
+        img {
+            position: relative;
+            bottom: 0;
+        }
+    }
+}
+.nav-image {
+    padding: 6rem 8rem;
+    margin: 0 auto;
+}
