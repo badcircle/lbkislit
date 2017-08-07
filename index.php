@@ -30,6 +30,14 @@
     </div>
     </div>
 
+    <div class="grid-container" id="intro">
+      <div class="grid-x">
+        <div class="cell auto">
+          <img src="img/line.png" alt="" style="padding: 0rem 4rem;">
+        </div>
+      </div>
+    </div>
+
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
