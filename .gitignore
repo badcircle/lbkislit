@@ -1,0 +1,4 @@
+app_BACKUP
+!app/
+app/*
+!app/scss/
