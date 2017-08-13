@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <?php include(".\header.php"); ?>
+    <?php include("./header.php"); ?>
 
     <div class="grid-container" id="intro">
       <div class="grid-x">
