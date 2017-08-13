@@ -16,7 +16,164 @@
           <img src="img/line.png" alt="" style="padding: 0rem 4rem;">
         </div>
       </div>
+
+      <div class="grid-x" id="calendar">
+        <div class="cell">
+          <table>
+            <thead>
+              <th>Sun<span class="show-for-large">day</span></th>
+              <th>Mon<span class="show-for-large">day</span></th>
+              <th>Tue<span class="show-for-large">sday</span></th>
+              <th>Wed<span class="show-for-large">nesday</span></th>
+              <th>Thur<span class="show-for-large">sday</span></th>
+              <th>Fri<span class="show-for-large">day</span></th>
+              <th>Sun<span class="show-for-large">day</span></th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="day-number">1</div>
+                </td>
+                <td>
+                  <div class="day-number">2</div>
+                </td>
+                <td>
+                  <div class="day-number">3</div>
+                </td>
+                <td>
+                  <div class="day-number">4</div>
+                </td>
+                <td>
+                  <div class="day-number">5</div>
+                </td>
+                <td>
+                  <div class="day-number">6</div>
+                </td>
+                <td>
+                  <div class="day-number">7</div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="day-number">1</div>
+                </td>
+                <td>
+                  <div class="day-number">2</div>
+                </td>
+                <td>
+                  <div class="day-number">3</div>
+                </td>
+                <td>
+                  <div class="day-number">4</div>
+                </td>
+                <td>
+                  <div class="day-number">5</div>
+                </td>
+                <td>
+                  <div class="day-number">6</div>
+                </td>
+                <td>
+                  <div class="day-number">7</div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="day-number">1</div>
+                </td>
+                <td>
+                  <div class="day-number">2</div>
+                </td>
+                <td>
+                  <div class="day-number">3</div>
+                </td>
+                <td>
+                  <div class="day-number">4</div>
+                </td>
+                <td>
+                  <div class="day-number">5</div>
+                </td>
+                <td>
+                  <div class="day-number">6</div>
+                </td>
+                <td>
+                  <div class="day-number">7</div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="day-number">1</div>
+                </td>
+                <td>
+                  <div class="day-number">2</div>
+                </td>
+                <td>
+                  <div class="day-number">3</div>
+                </td>
+                <td>
+                  <div class="day-number">4</div>
+                </td>
+                <td>
+                  <div class="day-number">5</div>
+                </td>
+                <td>
+                  <div class="day-number">6</div>
+                </td>
+                <td>
+                  <div class="day-number">7</div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="day-number">1</div>
+                </td>
+                <td>
+                  <div class="day-number">2</div>
+                </td>
+                <td>
+                  <div class="day-number">3</div>
+                </td>
+                <td>
+                  <div class="day-number">4</div>
+                </td>
+                <td>
+                  <div class="day-number">5</div>
+                </td>
+                <td>
+                  <div class="day-number">6</div>
+                </td>
+                <td>
+                  <div class="day-number">7</div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="day-number">1</div>
+                </td>
+                <td>
+                  <div class="day-number">2</div>
+                </td>
+                <td>
+                  <div class="day-number">3</div>
+                </td>
+                <td>
+                  <div class="day-number">4</div>
+                </td>
+                <td>
+                  <div class="day-number">5</div>
+                </td>
+                <td>
+                  <div class="day-number">6</div>
+                </td>
+                <td>
+                  <div class="day-number">7</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
+  
 
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/what-input.min.js"></script>
