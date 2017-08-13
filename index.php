@@ -22,5 +22,13 @@
     <script src="js/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <div style="display: none;">
+      <img src="img/nav/nav_over_01-fs8.png" alt="">
+      <img src="img/nav/nav_over_02-fs8.png" alt="">
+      <img src="img/nav/nav_over_03-fs8.png" alt="">
+      <img src="img/nav/nav_over_04-fs8.png" alt="">
+      <img src="img/nav/nav_over_05-fs8.png" alt="">
+      <img src="img/nav/nav_over_06-fs8.png" alt="">
+    </div>
   </body>
 </html>
