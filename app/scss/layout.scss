@@ -1,6 +1,6 @@
 body {
     background-color: #fff;
-    background-image: url(../img/hip-square.png);
+    background-image: url(../img/hip-square-fs8.png);
 }
 .logo {
     width: 5rem;
@@ -84,7 +84,7 @@ body {
     background-image: url(../img/map_texas-fs8.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center 5rem;
+    background-position: center 3rem;
     @include breakpoint(small down) {
         background-size: 200%;
     }
@@ -94,6 +94,7 @@ body {
     margin-top: 3rem;
     table {
         border: 0;
+        border-top: 2px solid #111;
         thead {
             background-color: rgba(255, 255, 255, 0.7);
             border: 0;
@@ -104,7 +105,7 @@ body {
         tbody {
             background-color: transparent;
             tr:nth-child(2n) {
-                background-color: rgba(200, 200, 200, 0.6);
+                background-color: rgba(225, 225, 225, 0.1);
                 @include breakpoint(small down) {
                     background-color: transparent;
                 }
@@ -118,6 +119,7 @@ body {
         }
         th {
             text-align: center;
+            border-bottom: 1px solid #999;
         }
         th, td {
             width: 14.285%;
@@ -125,8 +127,8 @@ body {
         td {
             height: 10rem;
             position: relative;
-            border-left: 1px solid rgba(0, 0, 0, 0.2);
-            background-color: rgba(255, 255, 255, 0.6);
+            // border-left: 1px solid rgba(0, 0, 0, 0.2);
+            // background-color: rgba(255, 255, 255, 0.6);
             @include breakpoint(small down) {
                 display: block;
                 width: 100%;
@@ -136,8 +138,13 @@ body {
             .day-number {
                 position: absolute;
                 top: 0.5rem;
-                right: 0.5rem;
+                left: 0.5rem;
             }
         }
     }
+}
+
+h2.lined {
+    display: inline-block;
+    border-bottom: 1px dashed #111;
 }
